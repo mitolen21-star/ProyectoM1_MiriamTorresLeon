@@ -27,14 +27,7 @@ Aplicación web desarrollada con HTML, CSS y JavaScript que permite generar pale
 ## Estructura del proyecto
 
 ```bash
-📁 proyecto
- ┣ 📂 assets/img
- ┣ 📂 css
- ┣ 📂 js
- ┣ 📄 index.html
- ┣ 📄 generador-paleta.html
- ┣ 📄 README.md
-```
+
 📁 proyecto
  ┣ 📂 assets
  ┃  ┗ 📂 img
