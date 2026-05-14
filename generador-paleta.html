@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Paleta de Colores</title>
+        <link rel="icon" type="image/jpg" href="./assets/img/logo.png">
+        <link rel="stylesheet" href="./css/generador-paleta.css">
+        <script src="./js/generador-paleta.js" defer></script>
+    </head>
+
+    <body>
+        <header> 
+            <img src="./assets/img/logo.png" alt="Logo-pagina" class="logo">
+            <div class="titulo"></div>
+            <h1 id="title">Generador Paleta de colores MirAArt</h1>  
+        </header>
+
+        <main>
+            <label for="select-cantidad" class="titulo-select">Cantidad de colores</label>
+            <select id="select-cantidad">
+                <option value="6">6 colores</option>
+                <option value="8">8 colores</option>
+                <option value="9">9 colores</option>
+            </select>
+
+            <button id="btn-generar" class="button">Formato HSL</button>
+            <button id="btn" class="button">Formato Hexadecimal</button>
+            <button id="button-generar" class="button">Generar Paleta</button>
+
+            <div id ="paletas" role="lista"
+            aria-label="paleta de colores generada"
+            ></div>
+        </main>    
+
+        <!--Toast para microfeedback-->
+            <div id ="toast" role="status"
+            aria-live-label="polite"
+            ></div>
+
+        
+            </div>
+            
+        </main>
+    </body>
+</html>
